@@ -93,7 +93,7 @@ html,body{margin:0;height:100%;background:#231C45;overflow:hidden;overscroll-beh
 
 
   <!-- 上のボタン（ゲームの上にのせる。タイトルは出さない） -->
-  <div style="position: absolute; left: 12px; right: 12px; top: 52px; display: flex; align-items: center; gap: 8px">
+  <div style="position: absolute; left: 30px; right: 30px; top: 22px; display: flex; align-items: center; gap: 8px">
     <div style="flex: 1"></div>
     <button aria-label="あそびかた" onClick="{{openHelp}}" style="width: 40px; height: 40px; border-radius: 20px; border: none; background: rgba(255,255,255,0.16); color: #FFFFFF; font-size: 17px; font-weight: 700; cursor: pointer; padding: 0">?</button>
     <button aria-label="{{soundLabel}}" aria-pressed="{{soundOn}}" onClick="{{toggleSound}}" style="width: 40px; height: 40px; border-radius: 20px; border: none; background: rgba(255,255,255,0.16); cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="#FFFFFF"></path><path d="{{soundPath}}"></path></svg></button>
